@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9b40743c.css",
+    "main.js": "/static/js/main.7ec3dbef.js",
+    "static/js/453.781a4bca.chunk.js": "/static/js/453.781a4bca.chunk.js",
+    "static/media/maionese.png": "/static/media/maionese.d55001a227628a65325b.png",
+    "static/media/fritas.png": "/static/media/fritas.f745bf6d557db34c31ad.png",
+    "static/media/ba.png": "/static/media/ba.e8bb9a68743884313f3d.png",
+    "static/media/pure.png": "/static/media/pure.ee2cc5472b7ac1f393eb.png",
+    "static/media/pcf.jpg": "/static/media/pcf.a5fb57f3d9e890e5518e.jpg",
+    "static/media/ovo.png": "/static/media/ovo.d6923406e36452677e19.png",
+    "static/media/salada.png": "/static/media/salada.8bcb18776405afd29690.png",
+    "static/media/ca.jpg": "/static/media/ca.91d27568006fc1d6e4bc.jpg",
+    "static/media/pf.jpg": "/static/media/pf.dcfa136860d55dba884d.jpg",
+    "static/media/guaravita.png": "/static/media/guaravita.fd436e7872b3bc93f12e.png",
+    "static/media/logo2.png": "/static/media/logo2.0500dba430cc5a2926b0.png",
+    "static/media/bm.jpg": "/static/media/bm.bb4fe8ab39cc0b957ea7.jpg",
+    "static/media/mc.jpg": "/static/media/mc.bbebcf8f0238a8b75f02.jpg",
+    "static/media/fg.jpg": "/static/media/fg.f96acd836b8dfcc14ad3.jpg",
+    "static/media/fm.jpg": "/static/media/fm.575e017e4fdc7f7a9f06.jpg",
+    "index.html": "/index.html",
+    "main.9b40743c.css.map": "/static/css/main.9b40743c.css.map",
+    "main.7ec3dbef.js.map": "/static/js/main.7ec3dbef.js.map",
+    "453.781a4bca.chunk.js.map": "/static/js/453.781a4bca.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9b40743c.css",
+    "static/js/main.7ec3dbef.js"
+  ]
+}
