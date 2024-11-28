@@ -6,6 +6,7 @@ function Modal({ isModalOpen, toggleModal, cart, cartCount }) {
     const [address, setAddress] = useState("");
     const [numero, setNumero] = useState("");
     const [bairro, setBairro] = useState("");
+    const [talher, setTalher] = useState("");
     const [paymentMethod, setPaymentMethod] = useState("");
     const [trocoValor, setTrocoValor] = useState("");
     const [isFormValid, setIsFormValid] = useState(true);
@@ -90,7 +91,7 @@ function Modal({ isModalOpen, toggleModal, cart, cartCount }) {
         });
 
         // Adicionar o total do pedido
-        message += `\n*Total:* R$ ${cartTotal.toFixed(2)}\n\n`;
+        message += `\n*Total a Pagar:* R$ ${cartTotal.toFixed(2)}\n\n*Precisa de Talher? : ${talher}*\n\n`;
 
         // Adicionar endereço e método de pagamento
         message += `*Endereço de Entrega:*\n${address}, Nº ${numero}, Bairro: ${bairro}, CEP: ${cep}\n\n`;
@@ -191,6 +192,15 @@ function Modal({ isModalOpen, toggleModal, cart, cartCount }) {
                         className="w-full border-2 p-1 rounded my-1"
                         value={bairro}
                         onChange={(e) => setBairro(e.target.value)}
+                    />
+
+                        <label className="font-bold text-black mt-4">Precisa de Talher?</label>
+                        <input
+                        type="text"
+                        placeholder="Talher?"
+                        className="w-full border-2 p-1 rounded my-1"
+                        value={talher}
+                        onChange={(e) => setTalher(e.target.value)}
                     />
 
                     <label className="font-bold text-black mt-4">Forma de Pagamento</label>

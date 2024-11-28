@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import './App.css';
 import Cardapio from './components/Cardapio';
 import Header from './components/Header';

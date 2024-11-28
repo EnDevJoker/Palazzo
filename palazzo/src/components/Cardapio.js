@@ -15,7 +15,9 @@ import pure from '../assets/pure.png'
 import ovo from '../assets/ovo.png'
 import Modal from './Modal.js'
 import guaravita from '../assets/guaravita.png';
-
+import vinagrete from '../assets/vinagrete.png';
+import bifeCavalo from '../assets/bife.png'
+import bolonhesa from '../assets/bolonhesa.png'
 
 function Cardapio () {
 
@@ -56,6 +58,21 @@ return(
     <main className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7 md:gap-10 mx-auto max-w-7xl px-2 mb-16">
         {/*Inserir os produtos*/}
         <div className="flex gap-2">
+                <img src={bifeCavalo} alt=""
+                className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+        <div>
+                <p className="font-bold text-white">Bife a Cavalo</p>
+                    <p className="text-sm">Delicioso bife com fritas, servido com Arroz, Feijão, Ovo e Farofa.</p>
+                    <div className="flex items-center gap-2 justify-between mt-3">
+                            <p className="font-bold">R$ 17,00</p>
+                            <button className="bg-gray-900 px-5 rounded add-to-cart-btn text-white" 
+                            onClick={() => addToCart('Bife a Cavalo', '17.00')}>
+                            <FaCartPlus className="text-white text-lg"/></button>    
+                        </div>
+                        </div>
+
+                        </div>
+        <div className="flex gap-2">
                 <img src={ba} alt=""
                 className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
     
@@ -71,6 +88,10 @@ return(
                         </div>
 
                         </div>
+
+                        
+    
+                
 
 
         <div className="flex gap-2">
@@ -96,9 +117,9 @@ return(
 
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 hidden">
                         <img src={pf} alt=""
-                className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+                className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300 " />
                 <div>
 
                     <p className="font-bold">Filézinho de Peixe Frito</p>
@@ -181,6 +202,22 @@ return(
                 </div>
 
         </div>
+
+        <div className="flex gap-2">
+                <img src={bolonhesa} alt=""
+                className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+        <div>
+                <p className="font-bold text-white">Espaguete a Bolonhesa</p>
+                    <p className="text-sm">Macarrão a Bolonhesa acompanhado com Feijão e Farofa.</p>
+                    <div className="flex items-center gap-2 justify-between mt-3">
+                            <p className="font-bold">R$ 13,00</p>
+                            <button className="bg-gray-900 px-5 rounded add-to-cart-btn text-white" 
+                            onClick={() => addToCart('Macarrão a Bolonhesa', '13.00')}>
+                            <FaCartPlus className="text-white text-lg"/></button>    
+                        </div>
+                        </div>
+
+                        </div>
 
         <div className="flex gap-2">
                         <img src={ca} alt=""
@@ -267,6 +304,23 @@ return(
                             <p className="font-bold">R$ 4,00</p>
                             <button className="bg-gray-900 px-5 rounded add-to-cart-btn text-white" 
                             onClick={() => addToCart('Salada Maionese', '4.00')}>
+                            <FaCartPlus className="text-white text-lg"/>
+                            </button>    
+                        </div>
+                        </div>
+
+                        </div>
+
+                        <div className="flex gap-2">
+                <img src={vinagrete} alt=""
+                className="w-28 h-28 rounded-md hover:scale-110 hover:-rotate-2 duration-300" />
+    
+                <div>
+                <p className="font-bold text-white">Molho Vinagrete</p>
+                    <div className="flex items-center gap-2 justify-between mt-3">
+                            <p className="font-bold">R$ 4,00</p>
+                            <button className="bg-gray-900 px-5 rounded add-to-cart-btn text-white" 
+                            onClick={() => addToCart('Molho Vinagrete', '4.00')}>
                             <FaCartPlus className="text-white text-lg"/>
                             </button>    
                         </div>
